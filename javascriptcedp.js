@@ -1,10 +1,9 @@
 
-/* met le texte selectionné dans le descriptif en gras et/ou italique */
+/* met le texte selectionnÃ© dans le descriptif en gras et/ou italique */
 
 function ModifySelection (action) {
     var textarea = document.getElementById("editeur");
           document.execCommand (action, false, null);
-	
         }
 
 
