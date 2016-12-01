@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>projet3</title>
+ 		<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
+
+	<body>
+		
+		<FORM id="formulaire" name="formulaire">
+		<h2>Formulaire d'ajout de balise</h2><br/>
+			<div class="rubrique">
+				<label> Nom de la balise:</label><br />
+				<input pattern=".{1,}" required="" name="nombalise" id="nombalise"  value="" placeholder="Nom de la balise" oninvalid="this.setCustomValidity('Veuillez renseigner le nom de la balise')">
+				
+				<br />
+			</div>						
+
+			<div class="rubrique">
+
+				<label> Description:</label><br />
+				<input id="buttonGras" type="button" value="Gras" style="font-weight: bold;" onclick="ModifySelection('bold');" />
+				<input id="buttonItalic" type="button" value="Italique" style="font-style: italic;" onclick="ModifySelection('italic');" />
+				<div id="editeur" type="text"  contentEditable style="width: 280px; height: 150px; overflow: auto;">
+				</div>
+				
+			</div>
+					
+			<div class="rubrique">
+				<label>Navigateur(s) compatible :</label><br/>
+					<div id="checkboxNav">
+						<div class="Navigateur">
+						<INPUT type="checkbox" name="choix1" value="1"> <img class="logoNav2" src="images/edge.png"><br/>
+						</div>
+						<div class="Navigateur">
+						<INPUT type="checkbox" name="choix2" value="2"> <img class="logoNav" src="images/chrome.png"><br/>
+						</div >
+						<div class="Navigateur">
+						<INPUT type="checkbox" name="choix3" value="3"> <img class="logoNav" src="images/firefox.png"><br/>
+						</div>
+					</div>
+					<div id="checkboxNav2">
+						<div class="Navigateur">
+						<INPUT type="checkbox" name="choix4" value="4"> <img class="logoNav" src="images/opera.png"><br/>
+						</div>
+						<div class="Navigateur">
+						<INPUT type="checkbox" name="choix5" value="5"> <img class="logoNav" src="images/safari.png">
+						</div>
+					</div>
+			</div>
+			
+			<div class="rubrique">
+      			<label>Balise autofermante :</label>
+      			<div id="buttonBaliseFermante">
+          		<label for="oui">
+           		<input type="radio" id="oui" name="balise autofermante" value="oui" checked />
+            	<span>oui</span>
+        		
+          		<label for="non">
+            	<input type="radio" id="non" name="balise autofermante" value="non" />
+           		<span>non</span>
+				</div>
+			</div>
+          		
+			</div>
+       		 <div class="rubrique">	
+				<label>Lien(s) complementaire :</label>
+
+				<input  pattern="((http|https):\/\/)?(www[.])?([a-zA-Z0-9]|-)+([.][a-zA-Z0-9(-|\/|=|?)?]+)" required oninvalid="this.setCustomValidity('Veuillez respecter le format URL ex : www.nomdusite@domaine.tdl')" id="URL" placeholder="www.nomdusite@domaine.tld" name="URL" value="" />
+
+			</div>
+
+			<input id="envoyer" value="Ajouter la balise" type="submit">
+			
+			
+		</FORM>
+		
+		
+		
+		
+		
+		
+		<script src="javascript.js"></script>
+	</body>
+</html>

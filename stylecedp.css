@@ -1,0 +1,168 @@
+body
+{
+	background: url("images/wood.jpg") no-repeat;
+}
+#formulaire
+{
+	display : block;
+	background : #EFF0F0;
+	padding : 5px 50px 50px 50px;
+	width : 310px;
+	border : 1px solid black;
+	border-radius : 10px;
+	margin-top : auto;
+	margin-bottom : auto;
+	margin-left : auto;
+	margin-right : auto;
+
+}
+
+
+#envoyer
+{
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	width : 280px;
+	height : 40px;
+	border : none;
+	margin-top : 40px;
+	background : #87CC7E;
+	padding-top : 3px;
+	padding-bottom : 3px;
+	font-size : 20px;
+}
+#editeur
+{
+	border-radius : 2px;
+	
+	margin-left :13px;
+	background : white;
+	overflow: auto;
+	width : 280px;
+	height : 150px;
+}
+#buttonGras
+{
+	margin-left : 20px;
+	margin-bottom : 5px;
+	margin-top : 15px;
+}
+#nombalise
+{
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 20px;
+	width : 270px;
+	height : 40px;
+	border : 1px solid white;
+}
+
+#liens
+{
+	border-radius : 1px;
+	
+	margin-left : 38px;
+	margin-bottom : 10px;
+	margin-top : 7px;
+	width : 220px;
+	height : 40px;
+}
+#non
+{
+	margin-left : 70px;
+}
+div
+{
+	margin-left : 60px;
+	margin-bottom : 10px;
+	font-size : 17px;
+}
+label
+{
+	font-size : 23px;
+	margin-top : 20px;
+}
+#URL
+{
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	width : 298px;
+	height : 40px;
+	border : 1px solid white;
+	
+	margin-top : 15px;
+}
+#buttonBaliseFermante
+{
+	
+	margin-left : 17%;
+	margin-top : 15px;
+}
+
+#nombalise[placeholder]
+{
+	text-align : center;
+}
+#URL[placeholder]
+{
+	text-align : center;
+}
+.rubrique 
+{
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+}
+h2
+{
+	text-align : center;
+	font-size : 25px;
+	margin-top : 0px;
+}
+span
+{
+	font-size : 17px;
+}
+.logoNav
+{
+	width : 38%;
+	height : auto;
+	
+}
+.logoNav2
+{
+	width : 33%;
+	height : auto;
+	
+}
+#checkboxNav
+{
+	display : flex;
+	justify-content: space-around;
+	margin-left : 0px;
+	margin-top : 15px;
+	
+}
+#checkboxNav2
+{
+	display : flex;
+	justify-content: space-around;
+	margin-left : 33px;
+	margin-right : 15px;
+	
+	
+}
+.Navigateur
+{
+	margin-right : 10px;
+	margin-left : 0px;
+	width : 80px;
+	height : 50px;
+}
+
+
+
+
