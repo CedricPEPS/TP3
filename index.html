@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TP28</title>
+	<meta charset="utf-8">
+
+</head>
+<body>
+
+
+
+
+  <input type="button" value="G" style="font-weight: bold;" onclick="ModifySelection('bold');" />
+  <input type="button" value="I" style="font-style: italic;" onclick="ModifySelection('italic');" />
+  <div id="editeur" type="text" contentEditable style="width: 280px; height: 150px; overflow: auto; border: solid gray 1px"></div>
+
+
+
+<form action="confirmation.html">
+<input pattern="((http|https):\/\/)?(www[.])?([a-zA-Z0-9]|-)+([.][a-zA-Z0-9(-|\/|=|?)?]+)" id="URL" placeholder="url du site" name="URL" value="" />
+<input id="envoyer" value="Envoyer" type="submit">
+</form>
+<script src="javascript.js"></script>
+</body>
+</html>
